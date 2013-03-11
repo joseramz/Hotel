@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*configuracion del cuerpo*/
+ body {
+   
+          
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	background: #fbf8f4 url(../fotos/bg.jpg) repeat top left;
+	font-weight: 400;
+	font-size: 15px;
+	color: #aa3e03;
+	text-align:center;
+	
+	
+}
+/*dimension del cuerpo*/
+#contenedor {
+
+ 
+  height: 680px;
+  margin-bottom: -1em;}
+.empuje {height:1em;}
+
+/*dimension del pie*/
+#footer {
+
+  height: auto !important;
+  height: 1px;
+}
+
+          
+ /* configuracion de la cabecera*/           
+#cabecera {
+    width: 1300px;
+	margin-left: auto;
+    margin-right: auto;
+	background: #fbf8f4 url(../fotos/bg.jpg) repeat top left;
+	font-weight: 400;
+	font-size: 25px;
+	color: #aa3e03;
+	text-align:center;
+				
+}
+          
+            
+/* menu*/
+            
+#menu li {
+      display: inline;
+      list-style: none;
+      padding: 0;
+}
+            
+/*Configuracion de las opciones del menu*/
+#menu li a {                
+           
+   	 padding: 15px 20px 15px 20px;
+ 	 text-decoration: none;
+     color:#aa3e03;
+     margin-left: -10px;
+           
+}
+  /*Configuracion de la letra al pasar por encima con el cursor*/
+  #menu li a:hover {
+	  color: white;
+  
+	  background-position:right;
+  }
