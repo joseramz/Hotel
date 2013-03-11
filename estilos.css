@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+  margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+
+.div_centrado
+{
+margin:0 auto;
+text-align:left;
+}
+
+            
+  
+table {
+	border-collapse:collapse;
+	text-align:justify;
+	height:inherit;
+	position:relative;
+}
+fieldset,img { 
+	border:0;
+}
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+abbr,acronym { border:0;
+}
+
+/* fuentes del body*/
+body{
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	background: #fbf8f4 url(../fotos/bg.jpg) repeat top left;
+	font-weight: 400;
+	font-size: 15px;
+	color: #aa3e03;
+}
+
+.container{
+	position: relative;
+	text-align: center;
+}
+
+.container > header{
+	padding: 20px 30px 10px 30px;
+	margin: 0px 20px 10px 20px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.container > header h1{
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 35px;
+	line-height: 35px;
+	position: relative;
+	font-weight: 400;
+	color: rgba(27,54,81,0.8);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    padding: 0px 0px 5px 0px;
+}
+.container > header h1 span{
+	color: #c7957b;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+.container > header h2, p.info{
+	font-size: 16px;
+	font-style: italic;
+	color: #4a3124;
+	text-shadow: 0px 1px 1px rgba(255,255,255,1);
+}
+/* Header Style */
+.codrops-top{
+	font-family:'Arial Narrow', Arial, sans-serif;
+	line-height: 24px;
+	font-size: 11px;
+	width: 100%;
+	background: #000;
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	
+}
+.codrops-top a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #ddd;
+	display: block;
+	float: left;
+}
+.codrops-top a:hover{
+	color: #fff;
+}
+.codrops-top span.right{
+	float: right;
+}
+.codrops-top span.right a{
+	float: none;
+	display: inline;
+}
+
+p.codrops-demos{
+	text-align:center;
+	display: block;
+	padding: 14px;
+}
+p.codrops-demos a,
+p.codrops-demos a.current-demo,
+p.codrops-demos a.current-demo:hover{
+	border: 1px solid #ddd;
+	border-color: #ddd #aaa #aaa #ddd;
+	padding: 4px 10px 3px;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 0px 3px;
+	font-weight: 800;
+	background: #fff;
+	
+}
+p.codrops-demos a:hover{
+	background: #fff;
+}
+p.codrops-demos a:active{
+	background: #e5e5e5;
+
+}
+p.codrops-demos a.current-demo,
+p.codrops-demos a.current-demo:hover{
+	color: #999;
+}
+
+
+/* presentación */
+
+.lb-album{
+	width: 900px;
+	margin: 0 auto;
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+}
+.lb-album li{
+	float: left;
+	margin: 5px;
+	position: relative;
+}
+.lb-album li > a,
+.lb-album li > a img{
+	display: block;
+}
+.lb-album li > a{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	padding: 10px;
+	background: #f1d2c2;
+
+}
+.lb-album li > a span{
+	position: absolute;
+	width: 156px;
+	height: 150px;
+	top: 8px;
+	left: 8px;
+	text-align: center;
+	line-height: 150px;
+	font-size: 24px;
+	background: rgb(241,210,194);
+
+}
+
+.lb-overlay{
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	z-index: 99;
+
+}
+.lb-overlay > div{
+	position: relative;
+	width: 550px;
+	margin: 10px auto 0px auto;
+
+}
+.lb-overlay div h3,
+.lb-overlay div p{
+	padding: 0px 30px;
+	width: 100px;
+	height: 30px;
+}
+.lb-overlay div h3{
+	font-size: 36px;
+	float: left;
+	text-align: right;
+
+}
+.lb-overlay div h3 span,
+.lb-overlay div p{
+	font-size: 16px;
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-style: italic;
+}
+.lb-overlay div h3 span{
+	display: block;
+	line-height: 40px;
+	
+}
+.lb-overlay div p{
+	text-align: justify;
+	float: left;
+	width: 160px;
+}
+.lb-overlay a.lb-close{
+	background: rgba(27,54,81,0.8);
+	z-index: 1001;
+	color: #fff;
+	position: absolute;
+	top: 43px;
+	left: 50%;
+	font-size: 15px;
+	line-height: 26px;
+	text-align: center;
+	width: 50px;
+	height: 23px;
+	overflow: hidden;
+	margin-left: -25px;
+
+}
+.lb-overlay img{
+	/* height: 100%; For Opera max-height does not seem to work */
+	max-height: 100%;
+	position: relative;
+
+}
+
